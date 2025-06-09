@@ -16,4 +16,3 @@ while i >= 0:
     revStr_while += str[i]
     i -= 1
     
-professor.data.science@gmail.com
