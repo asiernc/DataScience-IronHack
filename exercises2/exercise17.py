@@ -5,3 +5,15 @@ revStr = str[::-1]
 print(revStr)
 # Mostramos por pantalla tipo
 print(type(revStr))
+
+revStr_for = ""
+for c in str:
+    revStr_for = c + revStr_for
+
+revStr_while = ""
+i = len(str) - 1
+while i >= 0:
+    revStr_while += str[i]
+    i -= 1
+    
+professor.data.science@gmail.com
