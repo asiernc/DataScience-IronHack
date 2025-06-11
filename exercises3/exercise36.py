@@ -14,14 +14,3 @@ for i in range(n):
         odds.append(str(i))
 
 print(", ".join(odds))
-
-
-f, t = input("Introruce"), 0
-
-for k in f:
-    if condicion_w(k):
-        t = true(t)
-    else:
-        print(t)
-        t = false(t)
-    print(t)
